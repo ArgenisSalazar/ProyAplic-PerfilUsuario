@@ -1,0 +1,73 @@
+.services-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.services-container {
+    flex: 1;
+    padding: 40px 20px;
+}
+
+.services-title {
+    color: #3aafa9;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+    /* Cambiado de center a left */
+}
+
+.services-subtitle {
+    color: #17252a;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    /* Cambiado de center a left */
+}
+
+.services-description {
+    color: #17252a;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    text-align: left;
+    /* Cambiado de center a left */
+}
+
+.service-card-col {
+    margin-bottom: 20px;
+}
+
+.service-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card .card-title {
+    color: #3aafa9;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.service-card .card-text {
+    color: #17252a;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.service-card .btn-primary {
+    background-color: #3aafa9;
+    border: none;
+    color: white;
+}
+
+.service-card .btn-primary:hover {
+    background-color: #2e8b8b;
+}

@@ -1,0 +1,58 @@
+.admission-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.admission-container {
+    flex: 1;
+    padding: 40px 20px;
+}
+
+.admission-title {
+    color: #3aafa9;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.admission-subtitle {
+    color: #17252a;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.admission-description {
+    color: #17252a;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    color: #17252a;
+}
+
+.form-check-label {
+    color: #17252a;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.btn-success {
+    background-color: #3aafa9;
+    border: none;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #2e8b8b;
+}

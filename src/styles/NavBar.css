@@ -1,0 +1,24 @@
+.custom-navbar {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.custom-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.custom-navbar .nav-link {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    color: #000;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #007bff;
+}
+
+.custom-navbar .ml-auto {
+    margin-left: auto;
+}

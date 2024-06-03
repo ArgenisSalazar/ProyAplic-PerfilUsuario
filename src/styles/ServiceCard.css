@@ -1,0 +1,33 @@
+.service-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card .card-title {
+    color: #3aafa9;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.service-card .card-text {
+    color: #17252a;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.service-card .btn-primary {
+    background-color: #3aafa9;
+    border: none;
+    color: white;
+}
+
+.service-card .btn-primary:hover {
+    background-color: #2e8b8b;
+}
